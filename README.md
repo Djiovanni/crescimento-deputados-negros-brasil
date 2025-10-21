@@ -74,9 +74,10 @@ pip install -r requirements.txt
 
 Após instalar as dependências, inicie o Jupyter Notebook:
 
-Bash
+```Bash
 jupyter notebook
-Isso abrirá uma janela no seu navegador. Clique no arquivo .ipynb principal para abrir a análise e execute as células.
+```
+Isso abrirá uma janela no seu navegador. Clique no arquivo ```analise_crescimento_deputados_negros_brasil_livro.ipynb``` para abrir a análise e execute as células.
 
 ## 📜 Licença
 O código deste projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
