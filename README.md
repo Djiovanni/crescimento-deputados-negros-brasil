@@ -29,4 +29,59 @@ Para replicar a análise, siga os passos abaixo.
 
 ### 2. Clonar o Repositório
 
-Abra seu terminal e clone este repositório para sua máquina local
+Abra seu terminal e clone este repositório para sua máquina local:
+
+```bash
+git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
+cd NOME-DO-REPOSITORIO
+```
+(Lembre-se de trocar SEU-USUARIO e NOME-DO-REPOSITORIO pela URL real do seu projeto)
+
+### 3. Criar um Ambiente Virtual (Recomendado)
+
+É uma boa prática criar um ambiente virtual isolado para este projeto, garantindo que as versões das bibliotecas sejam as corretas.
+
+Com venv (padrão do Python):
+
+```Bash
+# Criar o ambiente
+python3 -m venv venv
+# Ativar o ambiente (macOS/Linux)
+source venv/bin/activate
+# Ativar o ambiente (Windows)
+.\venv\Scripts\activate
+```
+
+Com Conda:
+
+```Bash
+# Criar o ambiente
+conda create -n politica-cor python=3.10
+# Ativar o ambiente
+conda activate politica-cor
+```
+
+
+### 4. Instalar as Dependências
+
+Este projeto utiliza um número enxuto de bibliotecas. Instale-as usando o arquivo requirements.txt fornecido:
+
+```Bash
+pip install -r requirements.txt
+```
+
+### 5. Iniciar o Jupyter
+
+Após instalar as dependências, inicie o Jupyter Notebook:
+
+Bash
+jupyter notebook
+Isso abrirá uma janela no seu navegador. Clique no arquivo .ipynb principal para abrir a análise e execute as células.
+
+## 📜 Licença
+O código deste projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## ✍️ Autor
+Djiovanni Jonas França Marioto
+
+Contato: djiovannimarioto@gmail.com
